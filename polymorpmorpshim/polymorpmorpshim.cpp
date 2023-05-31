@@ -32,7 +32,17 @@ public:
 };
 int main()
 {
-    std::cout << "Hello World!\n";
+    seseorang* orang;
+    joko a;
+    lia b;
+
+    orang = &a;
+    orang->pesan();
+    orang = &b;
+    orang->pesan();
+    //a.seseorang::pesan (); // memanggil method yang berbeda class orang tua
+    //b.seseorang::pesan();
+    return 0;
 }
 
 
