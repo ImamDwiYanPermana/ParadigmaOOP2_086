@@ -14,7 +14,17 @@ public:
 };
 int main()
 {
-    std::cout << "Hello World!\n";
+    remotLampu lampuRumah;
+
+    lampuRumah.setSaklarNo(0, "Lampu teras rumah");
+    lampuRumah.setSaklarNo(1, "Lampu teras rumah");
+    lampuRumah.setSaklarNo(2, "Lampu teras rumah");
+    lampuRumah.setSaklarNo(3, "Lampu teras rumah");
+
+    cout << lampuRumah.getSaklarNo(0) << endl;
+    cout << lampuRumah.getSaklarNo(1) << endl;
+    cout << lampuRumah.getSaklarNo(2) << endl;
+    cout << lampuRumah.getSaklarNo(3) << endl;
 }
 
 
