@@ -29,13 +29,14 @@ public:
     }
 };
 
-class budi : public pekerja, public pelajar {
+class budi : public pekerja, public pelajar, public orang {
 public:
     budi(int pUmur) :
         pekerja(pUmur),
-        pelajar(pUmur)
+        pelajar(pUmur),
+        orang(pUmur)
     {
-        cout << " budi dibuat \n" << umur << endl;
+        cout << " budi dibuat \n" << endl;
     }
 };
 int main()
