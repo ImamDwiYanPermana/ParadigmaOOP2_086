@@ -20,7 +20,11 @@ void display() {
 };
 int main() 
 {
-    std::cout << "Hello World!\n";
+    Abstraksiklas ak;
+    ak.setXY("yogyakarta", "kampus");
+    ak.display();
+
+    return 0;
 }
 
 
