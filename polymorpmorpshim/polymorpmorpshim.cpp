@@ -14,6 +14,15 @@ public:
     }
 };
 
+class joko : public seseorang {
+public :
+    void pesan() {
+        cout << "pesan dari joko" << endl;
+    }
+    void cetak() {
+        cout << "Tulisan Joko" << endl;
+    }
+};
 int main()
 {
     std::cout << "Hello World!\n";
